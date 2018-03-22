@@ -93,6 +93,22 @@ h6 {
   background-size: cover;
 }
 
+.mastheadOG {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: url("../img/OGIndex.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
@@ -350,6 +366,21 @@ a:hover, a:focus, a:active {
    color: rgba(69, 66, 255, 1.0) !important;
    
 }
+
+.btn-transOG {
+  background-color: rgba(0, 0, 0, 0.0) !important;
+  border-color: rgba(255, 255, 255, 1.0) !important;
+  color: #fff !important;
+}
+
+.btn-transOG:hover {
+   border-color: rgba(255, 255, 255, 0.0) !important;
+   background-color: rgba(255, 255, 255, 1.0) !important;
+   color: rgba(255, 0, 0, 1.0) !important;
+   
+}
+
+
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background-color: #155d74 !important;
